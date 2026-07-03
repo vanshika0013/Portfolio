@@ -1,0 +1,33 @@
+.footer {
+  border-top: 1px solid var(--border);
+  padding: 32px 0;
+}
+
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.footer-text {
+  font-size: 14px;
+  color: var(--muted);
+}
+
+.footer-socials {
+  display: flex;
+  gap: 18px;
+  font-size: 18px;
+  color: var(--muted);
+}
+
+.footer-socials a {
+  transition: color 0.25s, transform 0.25s;
+}
+
+.footer-socials a:hover {
+  color: var(--accent-2);
+  transform: translateY(-2px);
+}
