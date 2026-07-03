@@ -41,20 +41,20 @@ src/
   main.jsx         # React entry point
 ```
 
-## Things to personalize before submission
+<!-- ## Things to personalize before submission -->
 
 <!-- 1. **Resume** — drop your resume PDF at `public/resume.pdf` (the Home page
    "Download Resume" button links to `Resume.pdf`). -->
 <!-- 2. **Project screenshot** — add your real SkillSync screenshot at
    `public/assets/skillsync-cover.png` (referenced in `src/data/projects.js`).
    Until you add it, a styled placeholder box shows instead — nothing breaks. -->
-3. **Links** — update GitHub / LinkedIn / email URLs in:
+<!-- 3. **Links** — update GitHub / LinkedIn / email URLs in:
    - `src/components/Footer.jsx`
    - `src/pages/Contact.jsx`
    - `src/data/projects.js` (`github`, `demo` fields)
 4. **Contact form** — currently shows a success state on submit but doesn't
    send anywhere. Wire it to Formspree, EmailJS, or your own backend if you
-   want real emails.
+   want real emails. -->
 
 ## Notes
 
